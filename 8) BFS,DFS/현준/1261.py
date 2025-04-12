@@ -24,14 +24,14 @@ while queue:
         break
     else:
         for a,b in direction:
-            if 0<=cur_x+a<N and 0<=cur_y+b<M:
-                if not visited[cur_x+a][cur_y+b]:
-                    if maze[cur_x+a][cur_y+b] == 0:
+            if 0<=cur_x+a<M and 0<=cur_y+b<N:
+                if visited[cur_y+b][cur_x+a] == 0:
+                    if maze[cur_y+b][cur_x+a] == 0:
                         heapq.heappush(queue, (wall, cur_x+a, cur_y+b))
-                        visited[cur_x+a][cur_y+b] = 1
+                        visited[cur_y+b][cur_x+a] = 1
                     else:
                         heapq.heappush(queue,(wall+1, cur_x+a, cur_y+b))
-                        visited[cur_x+a][cur_y+b] = 1
+                        visited[cur_y+b][cur_x+a] = 1
 
 print(answer)
 
