@@ -1,24 +1,53 @@
-#죄송 ㅋㅋ#############
-
 import heapq
-# inf=int(le9)
+import sys
+input=sys.stdin.readline
+INF = int(1e9) 
 
 n,m=map(int,input().split())
-lst=[list(map(int,input().split())) for _ in range(m)]
+lst=[list(map(int,input().split())) for _ in range(n)]
+distance=[[INF] for _ in range(n)]
 
 dx=[0,0,-1,1]
 dy=[-1,1,0,0]
 
-graph=[[]*(m) for _ in range(n)]
-# distance=[[inf] for _ in range(m)]
-cnt=0
+def dijkstra():
+    q=[]
+    heapq.heappush(q,(0,0,0))
+    distance[0][0]=0
+    while q:
+        cost,r,c=heapq.heappop(q)
+        
+        if cost > distance[r][c]:
+            continue
+        for i in range(4):
+            nx=r+dx[i]
+            ny=c+dy[i]
+            
+            if nx<0 or nx>=n or ny<0 or ny >=m:
+                continue
+            if cost + lst[nx][ny] < distance[nx][ny]:
+                distance[nx][ny]=cost+lst[nx][ny]
+                heapq.heappush(q,(distance[nx][ny],nx,ny))
+                
+dijkstra()
+print(distance[n-1][m-1])
 
-for i in range(n):
-    x=dx[i]
-    y=dy[i]
 
-start=lst[0][0]
-print(start)
+
+
+
+
+
+# graph=[[]*(m) for _ in range(n)]
+
+# cnt=0
+
+# for i in range(n):
+#     x=dx[i]
+#     y=dy[i]
+
+# start=lst[0][0]
+# print(start)
 
 # for i in range(n):
 #     for ii in range(m):
