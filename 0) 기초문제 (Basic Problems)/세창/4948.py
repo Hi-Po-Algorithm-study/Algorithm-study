@@ -3,7 +3,7 @@ input=sys.stdin.readline
 
 def sosu(i):
 
-    for j in range(2,i+1):
+    for j in range(2,int(i**0.5)+1):
         if i%j==0:
             return False
     return True
