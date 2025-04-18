@@ -17,7 +17,7 @@ def prime(n):
 
     for x in prime:
         if x >n and x<=2*n:
-            L.append(x)
+            L.append(x) 
     # print(L)
 
     return(len(L))
@@ -32,3 +32,4 @@ while True:
     print(prime(n))
 
 
+#append 안하고 (리스안쓰고 cnt로 )
