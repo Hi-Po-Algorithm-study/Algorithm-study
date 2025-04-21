@@ -22,15 +22,6 @@ visited[P-1] = 1
 
 def dfs(P):
     global haveDirt
-    
-    # if chunbaeHeight[P] >= originHeight[P]:
-    #     money = chunbaeHeight[P] - originHeight[P] 
-    #     if haveDirt-money > 0:
-    #         haveDirt -=money
-    #         dp[P] = 
-    #     dp[P] = chunbaeHeight[P] - originHeight[P] 
-    # else:
-    #     haveDirt = originHeight[P] - chunbaeHeight[P]
 
     if chunbaeHeight[P-1] >= originHeight[P-1]:
         money = chunbaeHeight[P-1] - originHeight[P-1]
@@ -40,7 +31,7 @@ def dfs(P):
             dp[P-1] += money - haveDirt
     else:
         haveDirt += originHeight[P-1] - chunbaeHeight[P-1]
-        
+
     for next in way[P]:
         if visited[next-1] == 0:
             visited[next-1] = 1
