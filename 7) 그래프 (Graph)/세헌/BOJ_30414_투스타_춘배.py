@@ -27,6 +27,8 @@ def dfs(n,cnt, money) :
         money = dfs(end,c,m)
         cnt = c
     return m
+
+
 ans  = 0
 if(height[P]>0) : 
     ans = dfs(P,height[P],0)
