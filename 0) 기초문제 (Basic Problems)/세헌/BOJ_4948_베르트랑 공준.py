@@ -19,9 +19,7 @@ while(True) :
             arr[j] = 1
 
     cnt = 0
-    for i in range(2,NN+1) :
-        if i<=N :
-            continue
+    for i in range(N+1,NN+1) :
         if arr[i] == 0 :
             cnt+=1
 
