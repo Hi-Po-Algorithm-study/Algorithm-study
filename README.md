@@ -1,8 +1,7 @@
 # Algorithm-study
 **# Algorithm-study**
 
-**# Algorithm Study hi-po**
-
+#  Algorithm Study hi-po
 Kraftom Jungle 301 <br/>
 
 알고리즘 스터디입니다.
