@@ -6,13 +6,14 @@
 Kraftom Jungle 301 <br/>
 
 알고리즘 스터디입니다.
-![Image](https://github.com/user-attachments/assets/51ada61b-5c34-4fd1-8fbb-904eade189ef)
 
 <br/>
 
 <br/>
 
 **## 1. 스터디 소개**
+
+![Image](https://github.com/user-attachments/assets/51ada61b-5c34-4fd1-8fbb-904eade189ef)
 
 *_알고리즘_* 스터디<br/>
 
