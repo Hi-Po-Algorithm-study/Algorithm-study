@@ -5,7 +5,7 @@ N, M = map(int, input().split())
 
 minute = list(map(int, input().split()))
 
-start = max(minute) -1
+start = max(minute) - 1
 end = 0
 for m in minute:
     end += m
