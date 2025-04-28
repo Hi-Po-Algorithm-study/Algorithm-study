@@ -1,5 +1,4 @@
 # Algorithm-study
-**# Algorithm-study**
 
 #  Algorithm Study hi-po
 Kraftom Jungle 301 <br/>
@@ -10,7 +9,7 @@ Kraftom Jungle 301 <br/>
 
 <br/>
 
-**## 1. 스터디 소개**
+## 1. 스터디 소개
 
 ![Image](https://github.com/user-attachments/assets/51ada61b-5c34-4fd1-8fbb-904eade189ef)
 
@@ -24,7 +23,7 @@ Kraftom Jungle 301 <br/>
 
 <br/>
 
-**## 2. 구성원**
+## 2. 구성원
 
 <table>
 
@@ -46,11 +45,11 @@ Kraftom Jungle 301 <br/>
 
 <br/>
 
-**## 3. 저장소 규칙**
+## 3. 저장소 규칙
 
 <br/>
 
-**### 1) 파일이름 규칙**
+### 1) 파일이름 규칙
 
 ```
 
@@ -58,15 +57,13 @@ BOJ_1234_제목 (약어_문제번호_제목)
 
 ```
 
-| 약어 | 문제 사이트                                      |
-
-| ---- | ------------------------------------------------ |
-
+| 약어 | 문제 사이트 |
+|--|-----------------------------------------------|
 | BOJ  | [Baekjoon Online Judge](https://www.acmicpc.net) |
 
 <br/>
 
-**### 2) Commit message 규칙**
+### 2) Commit message 규칙
 
 ```
 
@@ -79,19 +76,12 @@ Add: 03_재귀_chai (Add: 문제분류 + 브랜치)
 ```
 
 | 태그 |  설명 |
-
 |----------|--------------|
-
 | Add | 새로운 문제풀이 추가 |
-
 | Style | 코드 포맷 변경, 세미 콜론 누락, 코드 수정이 없는 경우 |
-
 | Comment | 필요한 주석 추가 및 변경 |
-
 | Docs | 문서 수정(README.md 포함) |
-
 | Rename | 파일 혹은 폴더명을 수정하거나 옮기는 작업만인 경우 |
-
 | Remove | 파일을 삭제하는 작업만 수행한 경우 |
 
 <br/>
@@ -100,56 +90,55 @@ Add: 03_재귀_chai (Add: 문제분류 + 브랜치)
 
 <br/>
 
-**## 4. 스터디 내용**
+## 4. 스터디 내용
 
-**### 0) 기초문제 (Basic Problems)**
-
-<br/>
-
-**### 1) 자료구조 (Data Structure)**
+### 0) 기초문제 (Basic Problems)
 
 <br/>
 
-**### 2) 재귀 (Recursion)**
+### 1) 자료구조 (Data Structure)
 
 <br/>
 
-**### 3) 정렬 (Sort)**
+### 2) 재귀 (Recursion)
 
 <br/>
 
-**### 4) 완전탐색**
+### 3) 정렬 (Sort)
 
 <br/>
 
-**### 5) 이진탐색 (Binary Search)**
+### 4) 완전탐색
 
 <br/>
 
-**### 6) 분할정복**
+### 5) 이진탐색 (Binary Search)
 
 <br/>
 
-**### 7) 그래프 (Graph)**
+### 6) 분할정복
 
 <br/>
 
-**### 8) BFS/DFS**
+### 7) 그래프 (Graph)
 
 <br/>
 
-**### 9) 동적계획법 (Dynamic Programming)**
+### 8) BFS/DFS
 
 <br/>
 
-**### 10) 그리디 (Greedy)**
+### 9) 동적계획법 (Dynamic Programming)
 
 <br/>
 
-**## 5. 참고자료**
+### 10) 그리디 (Greedy)
+
+<br/>
+
+## 5. 참고자료
 
 - [코딩테스트 대비 문제집 with Baekjoon](https://github.com/tony9402/baekjoon)
 
 - [바킹독 문제집](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook.md)
 
-**## 브랜치**
