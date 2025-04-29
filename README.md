@@ -52,13 +52,11 @@ Kraftom Jungle 301 <br/>
 ### 1) 파일이름 규칙
 
 ```
-
 BOJ_1234_제목 (약어_문제번호_제목)
-
 ```
 
-| 약어 | 문제 사이트 |
-|--|-----------------------------------------------|
+| 약어 | 문제 사이트                                      |
+| ---- | ------------------------------------------------ |
 | BOJ  | [Baekjoon Online Judge](https://www.acmicpc.net) |
 
 <br/>
@@ -92,7 +90,11 @@ Add: 03_재귀_chai (Add: 문제분류 + 브랜치)
 
 ## 4. 스터디 내용
 
+
 ### 0) 기초문제 (Basic Problems)
+
+
+[베르트탕 공준](https://www.acmicpc.net/problem/4948)
 
 <br/>
 
@@ -105,6 +107,9 @@ Add: 03_재귀_chai (Add: 문제분류 + 브랜치)
 <br/>
 
 ### 3) 정렬 (Sort)
+
+
+[문제집](https://www.acmicpc.net/problem/1766)
 
 <br/>
 
@@ -126,13 +131,22 @@ Add: 03_재귀_chai (Add: 문제분류 + 브랜치)
 
 ### 8) BFS/DFS
 
+
+[점프왕 쩰리small)](https://www.acmicpc.net/problem/16173)
+
+[알고스팟](https://www.acmicpc.net/problem/1261)
+
 <br/>
+
 
 ### 9) 동적계획법 (Dynamic Programming)
 
 <br/>
 
 ### 10) 그리디 (Greedy)
+
+
+[주식](https://www.acmicpc.net/problem/11501)
 
 <br/>
 
