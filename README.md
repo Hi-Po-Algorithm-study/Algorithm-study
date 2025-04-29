@@ -1,6 +1,5 @@
 # Algorithm-study
 
-
 #  Algorithm Study hi-po
 Kraftom Jungle 301 <br/>
 
@@ -91,6 +90,7 @@ Add: 03_재귀_chai (Add: 문제분류 + 브랜치)
 
 ## 4. 스터디 내용
 
+
 ### 0) 기초문제 (Basic Problems)
 
 
@@ -107,6 +107,7 @@ Add: 03_재귀_chai (Add: 문제분류 + 브랜치)
 <br/>
 
 ### 3) 정렬 (Sort)
+
 
 [문제집](https://www.acmicpc.net/problem/1766)
 
@@ -130,6 +131,7 @@ Add: 03_재귀_chai (Add: 문제분류 + 브랜치)
 
 ### 8) BFS/DFS
 
+
 [점프왕 쩰리small)](https://www.acmicpc.net/problem/16173)
 
 [알고스팟](https://www.acmicpc.net/problem/1261)
@@ -143,6 +145,7 @@ Add: 03_재귀_chai (Add: 문제분류 + 브랜치)
 
 ### 10) 그리디 (Greedy)
 
+
 [주식](https://www.acmicpc.net/problem/11501)
 
 <br/>
@@ -152,3 +155,4 @@ Add: 03_재귀_chai (Add: 문제분류 + 브랜치)
 - [코딩테스트 대비 문제집 with Baekjoon](https://github.com/tony9402/baekjoon)
 
 - [바킹독 문제집](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook.md)
+
