@@ -35,3 +35,4 @@ def bfs():
         heapq.heappush(S,N)    
 
             
+# ㅠㄹ
