@@ -41,8 +41,6 @@ def retrans(a):
         return "G"
     if a == 8:
         return "H"
-    
-    
 
 def kingMove(a):
     if a == 'B':
@@ -62,15 +60,10 @@ def kingMove(a):
     if a == 'RT':
         return (1, 1)
     
-    
-
-
 king_x = trans(king_x)
 king_y = int(king_y)
 stone_x = trans(stone_x)
 stone_y = int(stone_y)
-kingPos = (king_x, king_y)
-stonePos = (stone_x, stone_y)
 
 N = int(N)
 moving = deque([])
@@ -79,6 +72,7 @@ for i in range(N):
     moving.append(input().strip())
 
 while moving:
+    
     next = moving.popleft()
     next_x, next_y = kingMove(next)
 
