@@ -11,6 +11,7 @@ Box.sort()
 if Crane[-1] < Box[-1] :
     print(-1)
     exit()
+
 time = [0] * C
 index = 0
 for i in range(C) :
@@ -23,7 +24,7 @@ for i in range(C) :
 
 mx = max(time)
 cnt = 0
-for i in range(C-1,-1,-1) :
+for i in range(C-1,-1,-1) :  # [1, 6, 5]
     if time[i] == mx :
         mx = math.ceil((cnt+mx) / (C-i))
         break
