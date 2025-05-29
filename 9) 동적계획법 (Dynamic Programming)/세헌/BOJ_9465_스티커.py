@@ -1,10 +1,9 @@
 import sys
-input = sys.stdin.readline
 
-T = int(input())
+T = int(sys.stdin.readline())
 for _ in range(T):
     N = int(input())
-    S = [list(map(int, input().split())) for _ in range(2)]
+    S = [list(map(int, sys.stdin.readline().split())) for _ in range(2)]
     if N == 0:
         print(0)
         continue
