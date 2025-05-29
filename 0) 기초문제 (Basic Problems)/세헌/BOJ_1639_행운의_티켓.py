@@ -11,7 +11,7 @@ for i in range(cnt,-1,-1) :
         s2 = 0
         lists = num[j:(i*2)-j]
         mid = len(lists)//2 + j
-        for k in range(0,mid) :
+        for k in range(j,mid) :
             s1 += lists[k]
             s2 += lists[k+mid]
         if s1 == s2 :
