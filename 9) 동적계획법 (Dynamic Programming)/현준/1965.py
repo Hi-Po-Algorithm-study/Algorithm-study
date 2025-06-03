@@ -39,6 +39,7 @@ for i in range(n):
 
             dp[i] = max(dp[i-1], dp2[check] + 1)
             #여기서도 바꿔줘야하는거 같은데
+            
             dp2[i] = dp2[check] + 1
 
 
