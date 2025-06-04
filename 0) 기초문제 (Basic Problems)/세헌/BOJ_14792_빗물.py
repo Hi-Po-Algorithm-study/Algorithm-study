@@ -3,11 +3,8 @@ H, N = map(int, sys.stdin.readline().split())
 top = list(map(int, sys.stdin.readline().split()))
 
 mx = max(top)
-mn = min(top)
 front = top[0]
 back = top[-1]
-
-
 
 x = 0
 rain = 0 
