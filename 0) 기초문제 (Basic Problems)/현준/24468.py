@@ -42,6 +42,8 @@ for _ in range(T):
                 dir[i+1] = 'L'
             else:
                 dir[i+1] = 'R'
-
+    print(ball)
+    print(dir)
+    print()
 
 print(ans)
