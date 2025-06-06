@@ -21,6 +21,7 @@ def dfs(x,y,d):
         if 0<=nx<r and 0<=ny<c and not visited[nx][ny] and graph[nx][ny]!='T':
                 visited[nx][ny]=True
                 dfs(nx,ny,d+1) # 다음으로 이동
+                visited[nx][ny]=False
 
 
 ################################################################################################
