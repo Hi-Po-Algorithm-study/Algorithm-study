@@ -8,12 +8,12 @@ def dfs(x,y,n) :
             cnt = cnt + 1
         return
     for i in range(4) :
-        x = x + dx[i]
-        y = y + dy[i]
-        if 0<=x and x<X and 0<=y and y<Y and check[x][y]==0 and n+1 <= N:
-            check[x][y] == 1
-            dfs(x,y,n+1)
-            check[x][y] == 0
+        nx = x + dx[i]
+        ny = y + dy[i]
+        if 0<=x and nx<X and 0<=ny and ny<Y and check[nx][ny]==0 and n+1 <= N:
+            check[nx][ny] = 1
+            dfs(nx,ny,n+1)
+            check[nx][ny] = 0
 
 X, Y, N = map(int,sys.stdin.readline().split())
 maps = [list(sys.stdin.readline().strip()) for _ in range(X)]
