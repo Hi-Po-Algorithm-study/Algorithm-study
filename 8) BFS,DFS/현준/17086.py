@@ -6,8 +6,8 @@ N, M = map(int, input().split())
 
 babyShark = []
 direction = [(-1, 0), (1,0), (0,1),(0,-1),(-1,-1),(-1,1),(1,-1),(1,1)]
-check = deque([])
-maxLen = 0
+
+
 totalMax = 0
 
 
@@ -21,6 +21,8 @@ def bfs(visited, check):
     flag = 0
     while check:
         x, y, safe_len = check.popleft()
+        # print(x, y, "s:", safe_len)
+        # print(check)
         maxLen = max(maxLen, safe_len)
 
         for dir in direction:
@@ -31,9 +33,10 @@ def bfs(visited, check):
                         visited[x+n_x][y+n_y] = 1
                         check.append((x+n_x, y+n_y, safe_len+1))
                     else:
-                        maxLen = safe_len
+                        # maxLen = safe_len
                         flag = 1
                         break
+        
         if flag == 1:
             break
     
@@ -42,17 +45,21 @@ def bfs(visited, check):
 
 for i in range(N):
     for j in range(M):
+        # print("DDd")
+        check = deque()
+        visited = [[0 for _ in range(M)] for _ in range(N)]
         if babyShark[i][j] == 1: # 체크 할 필요 없음
             continue
 
 
         else: # 체크!
-            visited = [[0 for _ in range(M)] for _ in range(N)]
+            
             
             check.append((i,j,0))
             visited[i][j] = 1
             kk = bfs(visited, check)
-            print(kk)
+            # print(kk)
+            # print()
             totalMax = max(totalMax, kk)
             # for dir in direction:
             #     n_x, n_y = dir
@@ -64,7 +71,7 @@ for i in range(N):
             #     check.popleft
 
 
-print(totalMax)
+print(totalMax+1)
 
 
 
