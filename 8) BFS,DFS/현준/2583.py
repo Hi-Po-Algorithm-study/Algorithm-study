@@ -1,6 +1,7 @@
 import sys
 input = sys.stdin.readline
 
+
 M, N, K = map(int, input().split())
 
 mapInfo = [[0 for _ in range(N)] for _ in range(M)]
@@ -20,7 +21,7 @@ ansarea = []
 for i in range(N):
     for j in range(M):
         if not visited[j][i]:
-            # visited[j][i] = 1
+
             if mapInfo[j][i] == 1:
                 continue
             else:
