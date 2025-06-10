@@ -1,4 +1,5 @@
 import sys
+sys.setrecursionlimit(10000)
 N, M, K = map(int, sys.stdin.readline().split())
 maps = [[0 for _ in range(N)] for _ in range(M)]
 for _ in range(K) :
