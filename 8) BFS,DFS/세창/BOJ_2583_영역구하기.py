@@ -19,8 +19,9 @@ def bfs(sy,sx):
             ny=y+dy[i]
             if 0<=nx<n and 0<=ny<m and not visited[ny][nx] and graph[ny][nx]==0:
                 visited[ny][nx]=True
-                q.append((sy,sx))
+                q.append((ny,nx))
                 ans+=1
+    return ans
 
 ###################################################################################
 
@@ -42,9 +43,9 @@ area=[] # 빈 곳 넓이들 리스트
 for y in range(m):
     for x in range(n):
         if graph[y][x]==0 and not visited[y][x]:
-            result=bfs(y,x)
+            area.append(bfs(y,x))
 
 area.sort()
 
 print(len(area))
-# print()
+print(*area)
