@@ -14,21 +14,21 @@ def hole(m,w,P) :
     else :
         return False
 left = 0
-right = 0
-if max(planet_a) - min(black) < 0 :
-    right = (-max(planet_a) + min(black)) * max(planet_w)
-else :
-    right = (max(planet_a) - min(black)) * max(planet_w)
+right = 200000000
+
 
 while left < right :
     mid = (left + right) // 2
     for i in range(M) :
         mn = 2000000
-        for j in range(N) : 
+        for j in range(last, N) :
+            nn = mn 
             if black[j] < planet_a[i] :
                 mn = min(mn, planet_a[i] - black[j])
             else :  
                 mn = min(mn, black[j] - planet_a[i])
+            if mn != nn :
+                last = black[j]
         if not hole(mn, planet_w[i],mid):
             left = mid + 1 
     if left != mid :
