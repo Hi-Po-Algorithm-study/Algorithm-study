@@ -7,16 +7,11 @@ lst=list(map(int,input().split()))
 
 cnt=0
 
-for i in lst:
-    for j in lst:
+for i in range(N):
+    for j in range(i+1,N):
         if i!=j and i+j==M:
-            # print(i)
-            lst.remove(i)
-            lst.remove(j)
             cnt+=1
-        # else:
-        #     break
-            print((i,j))
+
 print(cnt)
 
 # for i in range(N-1):
