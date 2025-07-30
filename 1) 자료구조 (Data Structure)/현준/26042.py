@@ -18,7 +18,7 @@ for i in range(n):
         if maxStudent == len(food):
 
             lastStudent = min(lastStudent, food[-1])
-        elif maxStudent <len(food):
+        elif maxStudent < len(food):
                 maxStudent = len(food)
                 lastStudent = food[-1]
 
